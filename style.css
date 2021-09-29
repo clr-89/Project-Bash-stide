@@ -1,1 +1,24 @@
+nav > ul, .navbar {
+    height: 60px;
+}
+nav > ul {
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar {
+    background-color: #483847;
+    color: white;
+}
 
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    nav > ul {
+        flex-direction: column;
+    
+    }
