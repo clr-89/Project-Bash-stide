@@ -20,5 +20,120 @@ nav > ul {
     }
     nav > ul {
         flex-direction: column;
-    
     }
+    }
+
+/* FOOTER */
+html,
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    background: #333333;
+}
+
+.footer__wrapper {
+    background: #ffffff;
+    overflow: auto;
+}
+
+.footer__container {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__logo__text {
+    display: flex;
+}
+
+.footer__social_network {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px 0;
+    flex-shrink: 0;
+}
+
+.footer__title__network {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 0.85rem;
+    padding: 20px 0;
+    line-height: 1.6;
+}
+
+.footer__text,
+.footer__link,
+.footer__title {
+    color: #aaaaaa;
+    padding: 3px 15px;
+    display: block;
+}
+
+.footer__hr {
+    height: 1px;
+    border: none;
+    background: #444444;
+}
+
+.footer__sections {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+}
+
+.footer__sections_PC {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+}
+
+.footer__section {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px 0;
+    flex-shrink: 0;
+}
+
+.footer__section_PC {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px 0;
+    flex-shrink: 0;
+}
+
+.footer__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #cccccc;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+@media screen and (min-width: 600px) {
+    .footer__section { width: 50%; }
+}
+
+@media screen and (max-width: 601px) {
+    .footer__section { width: 100%; }
+    .footer__logo__text { display: flex;
+        flex-direction: column; align-items: center;}
+    .footer__sections_PC { display: none;}
+}
+/* FOOTER */
