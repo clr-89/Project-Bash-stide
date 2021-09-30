@@ -10,7 +10,7 @@
 <div class="footer__wrapper">
     <div class="footer__container">
         <div class="footer__logo__text">
-            <img src="images/logo" alt="Logo-test Bash-Stide" width="200" height="80">
+            <img src="images/Logo_test_Bash-Stide.png" alt="Logo-test Bash-Stide" width="200" height="80">
             <h2 class="footer_header_title">BASH-STIDE</h2>
         </div>
         <div class="footer__sections container">
