@@ -26,7 +26,7 @@ function showResponsiveMenu() {
     arrow.classList.toggle('open');
 
   });
-<<<<<<< HEAD
+
 
 
 
@@ -40,7 +40,7 @@ document.getElementById("myform").addEventListener("submit", function (event) {
 });
 
 
-=======
+
 // claire js carou
 
 let slideIndex = 1;
@@ -72,4 +72,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 // claire js fin carou
->>>>>>> 87f728e213dc7cb0ee42eab2309c57e3a6004ae6
+
