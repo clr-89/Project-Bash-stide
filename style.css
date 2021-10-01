@@ -99,8 +99,6 @@
   
       z-index: 100;
   
-      -webkit-user-select: none;
-      user-select: none;
       cursor: pointer;
     }
   
@@ -120,9 +118,8 @@
       opacity: 1;
       left: 0;
   
-      -webkit-transform: rotate(0deg);
+      
       -moz-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
       transform: rotate(0deg);
       -webkit-transition: 0.25s ease-in-out;
       -moz-transition: 0.25s ease-in-out;
@@ -161,9 +158,7 @@
     /* the first span rotates 45° \ */
     #topnav_hamburger_icon.open span:nth-child(1) {
       width: 110%;
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);      
       transform: rotate(45deg);
     }
   
@@ -176,10 +171,8 @@
     /* the last span rotates -45° / */
     #topnav_hamburger_icon.open span:nth-child(3) {
       width: 110%;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+       transform: rotate(-45deg);
     }
   }
   
@@ -201,7 +194,6 @@
   }
   
 /* Navbar */
-
 /* FOOTER */
 .footer__wrapper {
     background: #ffffff;
@@ -434,7 +426,72 @@ a {
     .text p {
         font-size: 20px;
     }
+}
 
+/* début css claire */
+/*mobile*/
+
+
+
+h1, h2 , h3 {
+    
+  font-family: 'Stick No Bills', sans-serif;
+
+}
+
+
+p {
+  font-family: 'Stick No Bills', sans-serif;
+ 
+}
+
+.img_team {
+  width: 80%;
+  box-shadow: 8px 8px 12px #aaa;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+aside {
+  margin-top: 20px;
+}
+
+.h2team{
+  text-align: center;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+<<<<<<< HEAD
 }
 
 /******** form ***********/
@@ -566,3 +623,121 @@ margin: 5%;
 
 
 
+=======
+/* Caption text */
+
+.teamtext {
+color: black;
+font-size: 15px;
+width: 100%;
+text-align: center;
+background-color: wheat;
+border-radius: 20px;
+margin-top:20px;
+box-shadow: 8px 8px 12px #aaa;
+height: auto;
+
+
+}
+
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 200px;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: wheat;
+background-color: rgba(10, 9, 9, 0.192);
+font-weight: bold;
+font-size: 30px;
+transition: 0.6s ease;
+border-radius: 20px;
+user-select: none;
+opacity: rgba(255, 255, 255, 0.87);
+margin-left: -5px;
+}
+
+.container-prev-next{
+   position:relative
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color:#000000;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border-radius: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.active, .dot:hover {
+background-color: rgb(212, 168, 126);
+border : 1px, solid, black;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}   
+
+/*pc bureau*/
+
+@media screen and (min-width : 700px){
+
+  .teamtext {
+    
+      font-size: 20px;
+      padding: 8px 12px;
+      top: 600px;
+     
+      
+  }
+
+
+  .prev, .next {
+      
+      top: 600px;
+      font-size: 50px;
+  }
+ 
+    
+    
+  .dot {
+          
+          height: 50px;
+          width: 50px;
+          
+        }
+  
+}
+/* fin css claire */
+>>>>>>> 87f728e213dc7cb0ee42eab2309c57e3a6004ae6

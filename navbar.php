@@ -1,22 +1,13 @@
 <!--- nav Aurélien et jonathan ----------->
 <header>
     <div id="root">
-        <div id="topnav" class="topnav">
-            
-          <a id="home_link" class="topnav_link" href="/">Bash-Stide</a>
-      
-          <!-- Classic Menu -->
-        
-                    
-                
-           
-          <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
-           
+        <div id="topnav" class="topnav">            
+          <a id="home_link" class="topnav_link" href="/">Bash-Stide</a> 
+          <a id="topnav_hamburger_icon" >           
             <span></span>
             <span></span>
             <span></span>
-          </a>
-      
+          </a>      
           <!-- Responsive Menu --> 
           <nav role="navigation" id="topnav_responsive_menu">
             <ul>
