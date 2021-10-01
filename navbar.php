@@ -3,11 +3,16 @@
     <div id="root">
         <div id="topnav" class="topnav">            
           <a id="home_link" class="topnav_link" href="/">Bash-Stide</a> 
-          <a id="topnav_hamburger_icon" >           
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>      
+          <nav role="navigation" id="topnav_menu"> 
+          </nav>
+          <a id="topnav_hamburger_icon"; onclick="showResponsiveMenu()">
+           
+           <span></span>
+           <span></span> 
+           <span></span>
+         </a>
+          
+            
           <!-- Responsive Menu --> 
           <nav role="navigation" id="topnav_responsive_menu">
             <ul>
@@ -21,4 +26,5 @@
           </nav>
         </div>
       </div>
+
 </header>
