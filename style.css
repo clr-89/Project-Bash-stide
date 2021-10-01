@@ -1,1 +1,187 @@
 
+/*mobile*/
+
+
+
+h1, h2 , h3 {
+    
+  font-family: 'Stick No Bills', sans-serif;
+
+}
+
+
+p {
+  font-family: 'Stick No Bills', sans-serif;
+ 
+}
+
+.img_team {
+  width: 100%;
+  box-shadow: 8px 8px 12px #aaa;
+  border-radius: 10px;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+.teamtext {
+color: black;
+font-size: 20px;
+position: absolute;
+top: -200px;
+width: 100%;
+text-align: center;
+background-color: wheat;
+border-radius: 20px;
+
+box-shadow: 8px 8px 12px #aaa;
+height: auto;
+
+
+}
+
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 200px;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: wheat;
+background-color: rgba(10, 9, 9, 0.192);
+font-weight: bold;
+font-size: 30px;
+transition: 0.6s ease;
+border-radius: 20px;
+user-select: none;
+opacity: rgba(255, 255, 255, 0.87);
+margin-left: -5px;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color:#000000;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border-radius: 70px;
+}
+
+.active, .dot:hover {
+background-color: rgb(212, 168, 126);
+border : 1px, solid, black;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}   
+
+/*pc bureau*/
+
+@media screen and (min-width : 600px){
+
+  .teamtext {
+    
+      font-size: 35px;
+      padding: 8px 12px;
+      top: 600px;
+      width: 40%;
+      right: -190px;
+      
+  }
+
+
+  .prev, .next {
+      
+      top: 600px;
+      font-size: 50px;
+  }
+ 
+    
+    
+  .dot {
+          
+          height: 50px;
+          width: 50px;
+          
+        }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
