@@ -29,6 +29,3 @@ function showResponsiveMenu() {
     arrow.classList.toggle('open');
 
   });
-
-
-
