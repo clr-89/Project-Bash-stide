@@ -19,11 +19,8 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
-  /* hide classic menu */
-  #topnav_menu {
-    display: none;
-  }
+@media only screen and (max-width: 960px) {
+ 
 
   /* position home link at left and hamburger at right */
   #home_link {
@@ -188,4 +185,16 @@
 
 .d-none {
   display: none;
+  
+}
+
+.open {
+
+display: inline-block;
+transform: rotate(90deg);
+}
+
+.instant {
+  color: #0078b4;
+  font-size: small;
 }

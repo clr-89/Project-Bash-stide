@@ -19,6 +19,16 @@ function showResponsiveMenu() {
     const instants = document.getElementsByClassName('instant');
     for (const instant of instants) {
         instant.classList.toggle('d-none');
+
+
+        
+       
     }
+
+    const arrow = document.getElementById("arrow");
+    arrow.classList.toggle('open');
+
   });
-  
+
+
+
