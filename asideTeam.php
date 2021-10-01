@@ -1,6 +1,7 @@
 <aside class='team'>
 
-        <h2> Notre équipe </h2>
+        <h2 class='h2team
+        '> Notre équipe </h2>
 
     <div class='slideshow-container'>
             <div class='mySlides fade'>
@@ -63,8 +64,8 @@
                     <div class='teamtext'>
                             <h3 > Aurélien le photographe </h3>
                             <p> 
-                                Pour immortaliser cette rencontre inoubliable, <br><br>
-                                Aurélien vous prendra (en photo) sous votre meilleur profil. Prêt à rugir de plaisir 
+                                Pour immortaliser cette rencontre inoubliable, 
+                                Aurélien vous prendra (en photo) sous votre meilleur profil. Prêt à rugir de plaisir ?
                             </p>
 
                 </div>
@@ -88,8 +89,8 @@
             </div>
         </div>
 
-
-  <!-- Next and previous buttons -->
+    <div class='container-prev-next'></div>
+  <!-- Next and previous buttons --
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
