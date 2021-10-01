@@ -47,7 +47,7 @@
                 pour seulement <strong>14,90€</strong> pour une durée de 30 minutes.
             </p>
             <div class="button">
-                <button><a href="contact.html">Reservation</a></button>
+                <button><a href="contact.php">Reservation</a></button>
             </div>
         </article>
 
@@ -66,7 +66,7 @@
                 est à seulement <strong>25 €</strong> pour une heure de plaisir
             </p>
             <div class="button">
-                <button><a href="contact.html">Reservation</a></button>
+                <button><a href="contact.php">Reservation</a></button>
             </div>
         </article>
     </section>
@@ -85,7 +85,7 @@
                 coffret roi de la jungle : 30 photos pour <strong>39 €</strong>
             </p>
             <div class="button">
-                <button><a href="contact.html">Reservation</a></button>
+                <button><a href="contact.php">Reservation</a></button>
             </div>
         </article>
 

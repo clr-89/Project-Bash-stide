@@ -19,9 +19,6 @@ function showResponsiveMenu() {
     const instants = document.getElementsByClassName('instant');
     for (const instant of instants) {
         instant.classList.toggle('d-none');
-
-
-        
        
     }
 
@@ -29,3 +26,16 @@ function showResponsiveMenu() {
     arrow.classList.toggle('open');
 
   });
+
+
+
+// formulaires
+const message =
+  "Merci nous avons bien reçu et nous vous répondrons dans les délais les plus brefs.\nL\'équipe Bash-stide";
+
+document.getElementById("myform").addEventListener("submit", function (event) {
+  event.preventDefault();
+  alert(message);
+});
+
+
