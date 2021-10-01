@@ -491,10 +491,129 @@ border-radius: 20px;
 background-color: rgba(0,0,0,0.8);
 }
 
-<<<<<<< HEAD
+
+
+/* Caption text */
+
+.teamtext {
+color: black;
+font-size: 15px;
+width: 100%;
+text-align: center;
+background-color: wheat;
+border-radius: 20px;
+margin-top:20px;
+box-shadow: 8px 8px 12px #aaa;
+height: auto;
+
+
 }
 
-/******** form ***********/
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 200px;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: wheat;
+background-color: rgba(10, 9, 9, 0.192);
+font-weight: bold;
+font-size: 30px;
+transition: 0.6s ease;
+border-radius: 20px;
+user-select: none;
+opacity: rgba(255, 255, 255, 0.87);
+margin-left: -5px;
+}
+
+.container-prev-next{
+   position:relative
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color:#000000;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border-radius: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.active, .dot:hover {
+background-color: rgb(212, 168, 126);
+border : 1px, solid, black;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}   
+
+/*pc bureau*/
+
+@media screen and (min-width : 700px){
+
+  .teamtext {
+    
+      font-size: 20px;
+      padding: 8px 12px;
+      top: 600px;
+     
+      
+  }
+
+
+  .prev, .next {
+      
+      top: 600px;
+      font-size: 50px;
+  }
+ 
+    
+    
+  .dot {
+          
+          height: 50px;
+          width: 50px;
+          
+        }
+  
+}
+/* fin css claire */
+
+
+
+
+/******** form célia ***********/
 
 /*Première partie du formulaire*/
 
@@ -623,121 +742,4 @@ margin: 5%;
 
 
 
-=======
-/* Caption text */
 
-.teamtext {
-color: black;
-font-size: 15px;
-width: 100%;
-text-align: center;
-background-color: wheat;
-border-radius: 20px;
-margin-top:20px;
-box-shadow: 8px 8px 12px #aaa;
-height: auto;
-
-
-}
-
-
-.prev, .next {
-cursor: pointer;
-position: absolute;
-top: 200px;
-width: auto;
-margin-top: -22px;
-padding: 16px;
-color: wheat;
-background-color: rgba(10, 9, 9, 0.192);
-font-weight: bold;
-font-size: 30px;
-transition: 0.6s ease;
-border-radius: 20px;
-user-select: none;
-opacity: rgba(255, 255, 255, 0.87);
-margin-left: -5px;
-}
-
-.container-prev-next{
-   position:relative
-}
-
-/* Number text (1/5 etc) */
-.numbertext {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 20px;
-  width: 20px;
-  margin: 0 2px;
-  background-color:#000000;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  border-radius: 70px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.active, .dot:hover {
-background-color: rgb(212, 168, 126);
-border : 1px, solid, black;
-}
-
-/* Fading animation */
-.fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
-
-@keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}   
-
-/*pc bureau*/
-
-@media screen and (min-width : 700px){
-
-  .teamtext {
-    
-      font-size: 20px;
-      padding: 8px 12px;
-      top: 600px;
-     
-      
-  }
-
-
-  .prev, .next {
-      
-      top: 600px;
-      font-size: 50px;
-  }
- 
-    
-    
-  .dot {
-          
-          height: 50px;
-          width: 50px;
-          
-        }
-  
-}
-/* fin css claire */
->>>>>>> 87f728e213dc7cb0ee42eab2309c57e3a6004ae6
