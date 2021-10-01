@@ -16,7 +16,7 @@
 <!------------------------------>
 <!----- presentation et activités anthony ------------>
 
-<main class="container">
+<main class="main__container">
 
     <section class="presentation">
 
