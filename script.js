@@ -31,13 +31,7 @@ function showResponsiveMenu() {
 
 
 // formulaires
-const message =
-  "Merci nous avons bien reçu et nous vous répondrons dans les délais les plus brefs.\nL\'équipe Bash-stide";
 
-document.getElementById("myform").addEventListener("submit", function (event) {
-  event.preventDefault();
-  alert(message);
-});
 
 
 

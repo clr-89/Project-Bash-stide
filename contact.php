@@ -48,7 +48,7 @@
             placeholder="Précisez nous la date et l'horaire souhaités"
           ></textarea>
           <br /><br />
-          <input type="submit" id="submit" value="Submit" />
+          <input type="submit" id="submit" value="submit" />
         </form>
   </div> 
 
