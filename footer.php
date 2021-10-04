@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<head>
-    <title>Bash-stide footer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
 <div class="footer__wrapper">
     <div class="footer__container">
         <div class="footer__logo__text">
@@ -70,4 +62,3 @@
         </div>
     </div>
 </footer>
-</body>

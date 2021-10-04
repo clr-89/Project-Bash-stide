@@ -28,16 +28,18 @@
             <img src="images/Putin_place-de-stalingrad.jpg" alt="lion-stalin">
         </article>
         <article class="text">
-            <h2>Présentation</h2>
+            <h1>PRÉSENTATION</h1>
             <p>
                 BashStide, est une start-up rugissante implantée à Bordeaux depuis 2021.
                 La qualité de nos prestations unique en Europe vous feront vivre des instants inoubliables.
             </p>
         </article>
-
     </section>
 
-    <section class="activitie1">
+    <h2>ACTIVITÉS</h2>
+
+    <section class="activitie1" id="lien1">
+
 
         <article class="mainImg">
             <img src="images/poutin_eat_lieon.jpeg" alt="lion-eat"/>
@@ -57,12 +59,12 @@
 
     </section>
 
-    <section class="activitie2">
+    <section class="activitie2" id="lien2">
         <article class="mainImg">
             <img src="images/Poutine_calin.jpeg" alt="lion-calin"/>
         </article>
 
-        <article class="text">
+        <article class="text" >
             <h3>Instant câlin</h3>
             <p>
                 Jonathan vous apprendra à attendrir le lion  Bleu de la Place Stalingrad.
@@ -75,7 +77,7 @@
         </article>
     </section>
 
-    <section class="activitie3">
+    <section class="activitie3" id="lien3">
 
         <article class="mainImg">
             <img src="images/poutine_picture.jpg" alt="lion-picture"/>
@@ -103,9 +105,8 @@
     <!-------------------------------------->
 </main>
 
-<footer>
     <?php include 'footer.php'; ?>
-</footer>
+
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <aside class='team'>
 
-     <h2 class='h2Team'> Notre équipe </h2>
+     <h2 class='h2Team'>NOTRE EQUIPE </h2>
         <div class='slideShowContainer'>
             <div class='mySlides fade'>
                 <!--<div class='numberText'> 1 / 5 </div>-->
@@ -17,7 +17,7 @@
                <!-- <div class='numberText'> 2 / 5 </div>-->
                     <img src="https://thispersondoesnotexist.com/image" alt='Célia' class='imgTeam'/>
                         <div class='teamText'>
-                            <h3 > Célia la dompteuse </h3>
+                            <h3> Célia la dompteuse </h3>
                                 <p> 
                                     Célia veille à votre sécurité, équipée de son fouet.
                                     Elle a remporté le WonderWoman festival, récompensant les dompteurs de fauve du monde entier.
