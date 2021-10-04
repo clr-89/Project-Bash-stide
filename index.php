@@ -39,7 +39,7 @@
 
     <section class="activitie1">
 
-        <article class="imgs">
+        <article class="mainImg">
             <img src="images/poutin_eat_lieon.jpeg" alt="lion-eat"/>
         </article>
 
@@ -58,7 +58,7 @@
     </section>
 
     <section class="activitie2">
-        <article class="imgs">
+        <article class="mainImg">
             <img src="images/Poutine_calin.jpeg" alt="lion-calin"/>
         </article>
 
@@ -77,7 +77,7 @@
 
     <section class="activitie3">
 
-        <article class="imgs">
+        <article class="mainImg">
             <img src="images/poutine_picture.jpg" alt="lion-picture"/>
         </article>
 
