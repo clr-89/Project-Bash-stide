@@ -503,14 +503,15 @@ h1, h2, h3, p, a {
 }
 .footerContainer {
     margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
+
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .footerLogoText {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .footerSource {
@@ -518,7 +519,7 @@ h1, h2, h3, p, a {
     flex-direction: column;
 }
 .footerSocialNetwork {
-    width: 20%;
+    width: 15%;
 }
 .footer {
     font-size: 0.85rem;
@@ -557,13 +558,6 @@ h1, h2, h3, p, a {
     background: var(--footerHoverLinkBackGround);
 }
 /*** responsive *****/
-
-@media screen and (max-width: 700px) {
-    .footerSection { width: 100%; }
-    .footerLogoText { display: flex;
-        flex-direction: column; align-items: center;}
-    .footerSectionsPC { display: none;}
-}
 @media screen and (min-width: 700px) {
 
     body{
@@ -652,11 +646,11 @@ h1, h2, h3, p, a {
 }
 
 .prev, .next {
-    
+
     font-size: 30px;
     bottom: 450px;
     margin-left: 10px;
-} 
+}
 .dot {
     height: 30px;
     width: 30px;
@@ -671,14 +665,14 @@ h1, h2, h3, p, a {
   display: flex;
   justify-content: space-evenly;
   margin-top: 110px;
-}   
+}
 
 .reserv{
   background-image: url(images/lionstalingrand.jpg);
   background-size: cover;
   width:50%;
-  background-position : left center; 
-  height: 550px; 
+  background-position : left center;
+  height: 550px;
 }
 
 .reserv:hover {
