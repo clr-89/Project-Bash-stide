@@ -15,14 +15,14 @@
 <?php include 'navbar.php'; ?>
 
 <?php require 'activity.php'; ?>
-<main class="main__container">
+<main class="mainContainer">
 
     <section class="presentation">
 
         <article class="size">
             <img src="images/Putin_place-de-stalingrad.jpg" alt="lion-stalin">
         </article>
-        <article class="text">
+        <article class="mainText">
             <h1>PRÉSENTATION</h1>
             <p>
                 BashStide, est une start-up rugissante implantée à Bordeaux depuis 2021.
@@ -41,7 +41,7 @@
                   <article class="mainImg">
                       <img src= "<?= $detailActivity['img']?>" alt="lion-eat"/>
                   </article>
-                  <article class="text">
+                  <article class="mainText">
                       <h3><?= $titleActivities?></h3>
                         <p>
                             <?= $detailActivity['detail']?><br>

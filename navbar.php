@@ -14,9 +14,9 @@
             <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <li id="activity"><a href="#">Activité</a> <span id="arrow" class="open">  >  </span></li>
-                <li class="d-none instant"><a class="sizing" href="#lien1">Instant Gastronomie</a></li>
-                <li class="d-none instant"><a class="sizing" href="#lien2">Instant Calin</a></li>
-                <li class="d-none instant"><a class="sizing" href="#lien3">Instant Picture</a></li>
+                <li class="d-none instant"><a  href="#/">Instant Gastronomie</a></li>
+                <li class="d-none instant"><a  href="#/">Instant Calin</a></li>
+                <li class="d-none instant"><a  href="/">Instant Picture</a></li>
                 <li><a href="contact.php">Reservation</a></li>
             </ul>
           </nav>
