@@ -586,23 +586,19 @@ h1, h2, h3, p, a {
     flex-direction: row-reverse;
   }
 
-    .activitie1, .activitie2, .activitie3 {
+    .row {
         display: flex;
         border: none;
         justify-content: center;
         margin-bottom: 3%;
-    }
-
-    .activitie2 {
         flex-direction: row-reverse;
     }
 
-    .activitie2 img {
-        margin-right: 5%
-    }
-
-    .mainImg {
-        align-self: center;
+    .reverse {
+        display: flex;
+        border: none;
+        justify-content: center;
+        margin-bottom: 3%;
     }
 
     .mainImg img {
