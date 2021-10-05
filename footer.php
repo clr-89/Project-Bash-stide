@@ -1,27 +1,27 @@
 
-<div class="footer__wrapper">
-    <div class="footer__container">
-        <div class="footer__logo__text">
-            <img src="images/Logo_test_Bash-Stide.png" alt="Logo-test Bash-Stide" width="200" height="80">
-            <h2 class="footer_header_title">BASH-STIDE</h2>
+<div class="footerWrapper">
+    <div class="footerContainer">
+        <div class="footerLogoText">
+            <img src="images/Logo_test_Bash-Stide.png" alt="Logo-test Bash-Stide" width="100" height="auto">
+            <h2 class="footerHeaderTitle">BASH-STIDE</h2>
         </div>
-        <div class="footer__sections container">
-            <div class="footer__section">
-                <span class="footer__title">Sources</span>
-                <a href="#" class="footer__link">Legal</a>
+        <div class="footerSections container">
+            <div class="footerSource">
+                <span class="footerTitle">Sources</span>
+                <a href="#" class="footerLink">Legal</a>
             </div>
         </div>
-        <ul class="footer__social_network">
-            <span class="footer__title">Social Network</span>
+        <div class="footerSocialNetwork">
+            <span class="footerTitle">Social Network</span>
             <a href="#"><img src="images/facebook.png" alt="Facebook" width="20%" height="auto"></a>
             <a href="#"><img src="images/twitter%20-%20Copie.png" alt="Twitter" width="20%" height="auto"></a>
             <a href="#"><img src="images/instagram.png" alt="Instagram" width="20%" height="auto"></a>
             <a href="#"><img src="images/linkedin.png" alt="Linkedin" width="20%" height="auto"></a>
-        </ul>
+        </div>
     </div>
 </div>
 <footer class="footer">
-    <div class="footer__text container">
+    <div class="footerText container">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -31,34 +31,34 @@
         <p>
             &copy; Copyright 2021 Your Website
         </p>
-        <hr class="footer__hr">
+        <hr class="footerHr">
     </div>
-    <div class="footer__sections_PC container">
-        <div class="footer__section_PC">
-            <span class="footer__title">Find Out More</span>
-            <a href="#" class="footer__link">Link #1</a>
-            <a href="#" class="footer__link">Link #2</a>
-            <a href="#" class="footer__link">Link #3</a>
-            <a href="#" class="footer__link">Link #4</a>
+    <div class="footerSectionsPC container">
+        <div class="footerSectionPC">
+            <span class="footerTitle">Find Out More</span>
+            <a href="#" class="footerLink">Link #1</a>
+            <a href="#" class="footerLink">Link #2</a>
+            <a href="#" class="footerLink">Link #3</a>
+            <a href="#" class="footerLink">Link #4</a>
         </div>
-        <div class="footer__section_PC">
-            <span class="footer__title">Visit Our Stores</span>
-            <a href="#" class="footer__link">Link #1</a>
-            <a href="#" class="footer__link">Link #2</a>
+        <div class="footerSectionPC">
+            <span class="footerTitle">Visit Our Stores</span>
+            <a href="#" class="footerLink">Link #1</a>
+            <a href="#" class="footerLink">Link #2</a>
         </div>
-        <div class="footer__section_PC">
-            <span class="footer__title">Support Us</span>
-            <a href="#" class="footer__link">Link #1</a>
-            <a href="#" class="footer__link">Link #2</a>
-            <a href="#" class="footer__link">Link #3</a>
-            <a href="#" class="footer__link">Link #4</a>
-            <a href="#" class="footer__link">Link #5</a>
+        <div class="footerSectionPC">
+            <span class="footerTitle">Support Us</span>
+            <a href="#" class="footerLink">Link #1</a>
+            <a href="#" class="footerLink">Link #2</a>
+            <a href="#" class="footerLink">Link #3</a>
+            <a href="#" class="footerLink">Link #4</a>
+            <a href="#" class="footerLink">Link #5</a>
         </div>
-        <div class="footer__section_PC">
-            <span class="footer__title">Follow Us Online!</span>
-            <a href="#" class="footer__link">Link #1</a>
-            <a href="#" class="footer__link">Link #2</a>
-            <a href="#" class="footer__link">Link #3</a>
+        <div class="footerSectionPC">
+            <span class="footerTitle">Follow Us Online!</span>
+            <a href="#" class="footerLink">Link #1</a>
+            <a href="#" class="footerLink">Link #2</a>
+            <a href="#" class="footerLink">Link #3</a>
         </div>
     </div>
 </footer>
