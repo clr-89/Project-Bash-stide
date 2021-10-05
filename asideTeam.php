@@ -6,7 +6,7 @@
                 <!--<div class='numberText'> 1 / 5 </div>-->
                     <img src="https://thispersondoesnotexist.com/image" alt='Claire' class='imgTeam'/>
                         <div class='teamText'>
-                            <h3><marquee behavior='alternate'> Claire la directrice </marquee></h3>
+                            <h3>Claire la directrice</h3>
                                 <p> 
                                     Claire notre chef, rugit au moindre faux pas.<br>
                                     Elle mène toute l’équipe d’une main de maître ! Elle peut parfois paraître plus enragée que le lion.
