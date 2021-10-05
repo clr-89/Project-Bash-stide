@@ -2,7 +2,7 @@
 <div class="footerWrapper">
     <div class="footerContainer">
         <div class="footerLogoText">
-            <img src="images/Logo_test_Bash-Stide.png" alt="Logo-test Bash-Stide" width="100" height="auto">
+            <img src="images/lion.png" alt="Logo-test Bash-Stide" width="100" height="auto">
             <h2 class="footerHeaderTitle">BASH-STIDE</h2>
         </div>
         <div class="footerSections container">
