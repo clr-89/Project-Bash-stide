@@ -4,7 +4,7 @@
         <div class='slideShowContainer'>
             <div class='mySlides fade'>
                 <!--<div class='numberText'> 1 / 5 </div>-->
-                    <img src="https://thispersondoesnotexist.com/image" alt='Claire' class='imgTeam'/>
+                    <img src="images/clair.gif" alt='Claire' class='imgTeam'/>
                         <div class='teamText'>
                             <h3>Claire la directrice</h3> <br>
                                 <p> 
@@ -15,7 +15,7 @@
             </div> 
             <div class='mySlides fade'>
                <!-- <div class='numberText'> 2 / 5 </div>-->
-                    <img src="https://thispersondoesnotexist.com/image" alt='Célia' class='imgTeam'/>
+                    <img src="images/celia.gif" alt='Célia' class='imgTeam'/>
                         <div class='teamText'>
                             <h3> Célia la dompteuse </h3> <br>
                                 <p> 
@@ -26,7 +26,7 @@
             </div> 
             <div class='mySlides fade'>
                <!-- <div class='numberText'> 3 / 5 </div>-->
-                    <img src="https://thispersondoesnotexist.com/image" alt='Anthony' class='imgTeam'/>
+                    <img src="images/anthony-test.gif" alt='Anthony' class='imgTeam'/>
                         <div class='teamText'>
                             <h3 > Anthony le vétérinaire </h3> <br>
                                 <p> 
@@ -38,7 +38,7 @@
             </div> 
             <div class='mySlides fade'>
                <!-- <div class='numberText'> 4 / 5 </div>-->
-                    <img src="https://thispersondoesnotexist.com/image" alt='Aurélien', class='imgTeam'/>
+                    <img src="images/aurelien.jpg" alt='Aurélien', class='imgTeam'/>
                         <div class='teamText'>
                             <h3 > Aurélien le photographe </h3> <br>
                                 <p> 
@@ -50,7 +50,7 @@
             </div>
             <div class='mySlides fade'>
                 <!--<div class='numberText'> 5 / 5 </div>-->
-                    <img src="https://thispersondoesnotexist.com/image" alt='Jonathan' class='imgTeam'/>
+                    <img src="images/jonathan1.gif" alt='Jonathan' class='imgTeam'/>
                         <div class='teamText'>
                             <h3 > Jonathan le "cupi-lion" </h3> <br>
                                 <p> 

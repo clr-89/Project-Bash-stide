@@ -17,7 +17,7 @@
 <section class= "bigContainer">
 
   <div class="reserv"> 
-      <h1 class="h1Reserv">Reservation</h1>
+      <h1 class="h1Reserv">Réservation</h1>
         <form id="myform">
             <label for="firstname"></label> <br />
                 <input type="text" id="fname" name="fname" placeholder="Name / First name"/>
@@ -27,7 +27,7 @@
                 <SELECT id="activites" name="activités" size="1">
                     <OPTION> Choisissez votre activité
                     <OPTION>Instant Câlin
-                    <OPTION>Instant Gastronomie
+                    <OPTION>Instant Gourmand
                     <OPTION>Instant Picture
                 </SELECT>
                 <label for="email"></label>

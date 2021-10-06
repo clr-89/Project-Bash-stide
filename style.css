@@ -1,6 +1,12 @@
 /* ZONE COMMUNE */
 
+  body {
 
+        background-image: url(/images/fond.bmp);
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
 
 /* reset */
 * {
@@ -296,13 +302,7 @@ h1, h2, h3, p, a {
 /* début css claire */
   /*mobile*/
   
-    body {
-
-        background-image: url(/images/fond.bmp);
-        background-attachment: fixed;
-        background-size: cover;
-
-    }
+  
     aside {
         margin: 0 auto;
         width:90%;
@@ -327,9 +327,7 @@ h1, h2, h3, p, a {
 
     .slideShowContainer {
         max-width: 1000px;
-        /*position: relative;*/
         margin: auto;
-       
     }
 
     .next {
@@ -420,13 +418,15 @@ h1, h2, h3, p, a {
         to {opacity: 1}
     }    
   
-    /*pc bureau*/
+  
 /* fin css claire */
+
 /* Formualire */
 /*Première partie du formulaire*/
 
-.h1Reserv {
+.h1Reserv  {
     text-align: center;
+    font-size : 25px;
 }
 
 #myform {
@@ -434,9 +434,11 @@ h1, h2, h3, p, a {
     flex-direction: column;
     align-items: center;
 }
-
+input {
+    height: 25px;
+}
 #fname {
-    width: 300px;
+    width:300px;
     margin-top: 15px;
     margin-bottom: 15px;
     border: none;
@@ -488,11 +490,12 @@ h1, h2, h3, p, a {
 /* deuxième partie du formulaire*/
 
 .infoContact {
-    margin-top: 40px;
+   
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 8px 8px 12px #44424257;
 }
   
 
@@ -657,25 +660,26 @@ h1, h2, h3, p, a {
     }
 
 /** aside ***/
+
 .imgTeam {
-    width:50%;
+    width:70%;
     border-radius: 500px;
 }
 
 .teamText {
   position: relative;
-  top: -80px;
-  right: -350px;
-  height: 200px;
+  top: -750px;
+  right: -50%;
+  height: 30%;
   padding: 30px;
-  font-size: 20px;
+  font-size: 25px;
   width:50%;
 }
 
 .prev, .next {
 
     font-size: 30px;
-    bottom: 450px;
+    bottom: 550px;
     margin-left: 10px;
 }
 .dot {
@@ -683,7 +687,7 @@ h1, h2, h3, p, a {
     width: 30px;
 }
 .dotsList {
-  margin-top: -50px;
+  margin-top: -150px;
 }
 
 /** formulaire **/
@@ -694,11 +698,12 @@ h1, h2, h3, p, a {
 }
 
 .reserv{
-  background-image: url(images/lionstalingrand.jpg);
   background-size: cover;
   width:50%;
   background-position : left center;
   height: 550px;
+  background-color: #ffffff73;
+  box-shadow: 8px 8px 12px #44424257;
 }
 
 .reserv:hover {
@@ -706,8 +711,14 @@ h1, h2, h3, p, a {
 }
 
 .infoContact {
-  background-color: rgba(0, 0, 0, 0.664);
-  width: 50%;
+   box-shadow: 8px 8px 12px #44424257;
+   background-color: #ffffff73; 
+   width: 50%;
+}
+
+input {
+    width:600px;
+    height: 40px;
 }
 
 }
