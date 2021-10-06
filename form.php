@@ -19,7 +19,7 @@ if (empty($date)) {
     $errors['errorDate'] = 'Merci de selectionner une date';
 }
 if (empty($email)) {
-    $errors['errorEmail'] = 'Veuillez renseigner votre email';g
+    $errors['errorEmail'] = 'Veuillez renseigner votre email';
 }
 if (empty($message)) {
     $errors['errorMessage'] = 'Merci de compléter votre message';
