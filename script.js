@@ -1,8 +1,6 @@
-
-
 function showResponsiveMenu() {
-    const menu = document.getElementById("topnav_responsive_menu");
-    const icon = document.getElementById("topnav_hamburger_icon");
+    const menu = document.getElementById("topnavResponsiveMenu");
+    const icon = document.getElementById("topnavHamburgerIcon");
     menu.classList.toggle('open')
     icon.classList.toggle('open')
   }
@@ -10,32 +8,23 @@ function showResponsiveMenu() {
 const container = document.getElementById("container");
 container.addEventListener('click', () => {
 
-    const menu = document.getElementById("topnav_responsive_menu");
-    const icon = document.getElementById("topnav_hamburger_icon");
+    const menu = document.getElementById("topnavResponsiveMenu");
+    const icon = document.getElementById("topnavHamburgerIcon");
     menu.classList.remove('open')
     icon.classList.remove('open')
-
 })
-
-
 // formulaires
-
-
-
-
 // claire js carou
-
 let slideIndex = 1;
-showSlides(slideIndex);
+    showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+    showSlides(slideIndex += n);
 }
-
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+    showSlides(slideIndex = n);
 }
 
 function showSlides(n) {

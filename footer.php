@@ -13,10 +13,10 @@
         </div>
         <div class="footerSocialNetwork">
             <span class="footerTitle">Social Network</span>
-            <a href="#"><img src="images/facebook.png" alt="Facebook" width="20%" height="auto"></a>
-            <a href="#"><img src="images/twitter%20-%20Copie.png" alt="Twitter" width="20%" height="auto"></a>
-            <a href="#"><img src="images/instagram.png" alt="Instagram" width="20%" height="auto"></a>
-            <a href="#"><img src="images/linkedin.png" alt="Linkedin" width="20%" height="auto"></a>
+            <a href="#"><img src="images/facebook.png" alt="Facebook" width="15%" height="auto"></a>
+            <a href="#"><img src="images/twitter%20-%20Copie.png" alt="Twitter" width="15%" height="auto"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram" width="15%" height="auto"></a>
+            <a href="#"><img src="images/linkedin.png" alt="Linkedin" width="15%" height="auto"></a>
         </div>
     </div>
 </div>
