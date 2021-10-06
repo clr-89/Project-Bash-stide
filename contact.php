@@ -25,11 +25,10 @@
             <label for="start">Date de Réservation</label>
             <input type="date" id="start" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13">
                 <SELECT id="activites" name="activités" size="1">
-
                     <option> Choisissez votre activité </option>
                     <option>Instant Câlin</option>
                     <option>Instant Gourmand</option>
-                    <option>Instant Picture</option>
+                    <option>Instant Picture</option>       
                 </SELECT>
 
             <label for="email"></label>

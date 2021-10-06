@@ -1,6 +1,12 @@
 /* ZONE COMMUNE */
 
+  body {
 
+        background-image: url(/images/fond.bmp);
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
 
 /* reset */
 * {
@@ -301,13 +307,7 @@ h1, h2, h3, p, a {
 /* début css claire */
   /*mobile*/
   
-    body {
-
-        background-image: url(/images/fond.bmp);
-        background-attachment: fixed;
-        background-size: cover;
-
-    }
+  
     aside {
         margin: 0 auto;
         width:90%;
@@ -332,9 +332,7 @@ h1, h2, h3, p, a {
 
     .slideShowContainer {
         max-width: 1000px;
-        /*position: relative;*/
         margin: auto;
-       
     }
 
     .next {
@@ -425,14 +423,23 @@ h1, h2, h3, p, a {
         to {opacity: 1}
     }    
   
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> feat/asidemercredi2
 /* fin css claire */
+
 /* Formualire */
 
 
-.h1Reserv {
+.h1Reserv  {
     text-align: center;
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size : 25px;
+>>>>>>> feat/asidemercredi2
 }
 
 .myform {
@@ -446,9 +453,11 @@ input{
 
     width: 25px;
 }
-
+input {
+    height: 25px;
+}
 #fname {
-    width: 300px;
+    width:300px;
     margin-top: 15px;
     margin-bottom: 15px;
     border: none;
@@ -493,10 +502,15 @@ input{
 /* deuxième partie du formulaire*/
 
 .infoContact {
+<<<<<<< HEAD
+=======
+   
+>>>>>>> feat/asidemercredi2
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 8px 8px 12px #44424257;
 }
   
 
@@ -662,25 +676,26 @@ input{
     }
 
 /** aside ***/
+
 .imgTeam {
-    width:50%;
+    width:70%;
     border-radius: 500px;
 }
 
 .teamText {
   position: relative;
-  top: -80px;
-  right: -350px;
-  height: 200px;
+  top: -750px;
+  right: -50%;
+  height: 30%;
   padding: 30px;
-  font-size: 20px;
+  font-size: 25px;
   width:50%;
 }
 
 .prev, .next {
 
     font-size: 30px;
-    bottom: 450px;
+    bottom: 550px;
     margin-left: 10px;
 }
 .dot {
@@ -688,7 +703,7 @@ input{
     width: 30px;
 }
 .dotsList {
-  margin-top: -50px;
+  margin-top: -150px;
 }
 
 /** formulaire **/
@@ -702,10 +717,16 @@ input{
   background-size: cover;
   width:50%;
   background-position : left center;
+<<<<<<< HEAD
   height: 569px;
   background-color: #ffffff73;
 box-shadow: 8px 8px 12px #44424257;
 
+=======
+  height: 550px;
+  background-color: #ffffff73;
+  box-shadow: 8px 8px 12px #44424257;
+>>>>>>> feat/asidemercredi2
 }
 
 .reserv:hover {
@@ -713,9 +734,20 @@ box-shadow: 8px 8px 12px #44424257;
 }
 
 .infoContact {
+<<<<<<< HEAD
 background-color: #ffffff73;
 box-shadow: 8px 8px 12px #44424257;
 width: 50%;
+=======
+   box-shadow: 8px 8px 12px #44424257;
+   background-color: #ffffff73; 
+   width: 50%;
+}
+
+input {
+    width:600px;
+    height: 40px;
+>>>>>>> feat/asidemercredi2
 }
 
 
