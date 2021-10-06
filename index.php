@@ -13,6 +13,7 @@
 </head>
 <body>
 <?php include 'navbar.php'; ?>
+<<<<<<< HEAD
 <div id="container">
     <?php require 'activity.php'; ?>
     <main class="mainContainer">
@@ -51,6 +52,58 @@
             </article>
             </section>
               <?php endforeach ; ?>
+=======
+<?php require 'activity.php'; ?>
+<!------------------------------>
+<!----- presentation et activités anthony ------------>
+
+<main class="main__container">
+
+    <section class="presentation">
+
+        <article class="size">
+            <img src="images/Putin_place-de-stalingrad.jpg" alt="lion-stalin">
+        </article>
+        <article class="text">
+            <h2>Présentation</h2>
+            <p>
+                BashStide, est une start-up rugissante implantée à Bordeaux depuis 2021.
+                La qualité de nos prestations unique en Europe vous feront vivre des instants inoubliables.
+            </p>
+        </article>
+
+    </section>
+
+  <div>
+      <?php foreach ($activities as $activityType => $numberActivities) : ?>
+
+      <?php foreach ($numberActivities as $titleActivities => $detailActivity) : ?>
+
+    <section class="<?= $activityType %2 === 0?"row":"reverse" ?>">
+
+     <article class="mainImg">
+            <img src= "<?= $detailActivity['img']?>" alt="lion-eat"/>
+        </artiInstant Frisson :
+
+Mieux qu’une balade à dos d’âne, chevauchez le roi de la jungle pour une vue panoramique de la place Stalingrad !
+
+Prix 12 €cle>
+        <article class="text">
+            <h3> <?= $titleActivities?>  </h3>
+            <p>
+                <?= $detailActivity['detail']?>
+
+            </p>
+            <p> Le prix est de
+                <?= $detailActivity['prix']?> €
+            </p>
+            <div class="button">
+                <button><a href="contact.php">Reservation</a></button>
+            </div>
+        </article>
+
+    </section>
+>>>>>>> feat/activity
           <?php endforeach ; ?>
       </div>
 
