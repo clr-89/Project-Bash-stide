@@ -298,7 +298,7 @@ h1, h2, h3, p, a {
   
     body {
 
-        background-image: url(/images/fond.bmp);
+        background-image: url(/images/fond.png);
         background-attachment: fixed;
         background-size: cover;
 
