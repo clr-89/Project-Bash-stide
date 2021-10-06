@@ -6,7 +6,7 @@
                 <!--<div class='numberText'> 1 / 5 </div>-->
                     <img src="https://thispersondoesnotexist.com/image" alt='Claire' class='imgTeam'/>
                         <div class='teamText'>
-                            <h3>Claire la directrice</h3>
+                            <h3>Claire la directrice</h3> <br>
                                 <p> 
                                     Claire notre chef, rugit au moindre faux pas.<br>
                                     Elle mène toute l’équipe d’une main de maître ! Elle peut parfois paraître plus enragée que le lion.
@@ -17,7 +17,7 @@
                <!-- <div class='numberText'> 2 / 5 </div>-->
                     <img src="https://thispersondoesnotexist.com/image" alt='Célia' class='imgTeam'/>
                         <div class='teamText'>
-                            <h3> Célia la dompteuse </h3>
+                            <h3> Célia la dompteuse </h3> <br>
                                 <p> 
                                     Célia veille à votre sécurité, équipée de son fouet.
                                     Elle a remporté le WonderWoman festival, récompensant les dompteurs de fauve du monde entier.
@@ -28,7 +28,7 @@
                <!-- <div class='numberText'> 3 / 5 </div>-->
                     <img src="https://thispersondoesnotexist.com/image" alt='Anthony' class='imgTeam'/>
                         <div class='teamText'>
-                            <h3 > Anthony le vétérinaire </h3>
+                            <h3 > Anthony le vétérinaire </h3> <br>
                                 <p> 
                                     Anthony assure le bien être de l’animal. 
                                     Il est diplômé de l’Institut des Lions Indomptables à Moscou. 
@@ -40,7 +40,7 @@
                <!-- <div class='numberText'> 4 / 5 </div>-->
                     <img src="https://thispersondoesnotexist.com/image" alt='Aurélien', class='imgTeam'/>
                         <div class='teamText'>
-                            <h3 > Aurélien le photographe </h3>
+                            <h3 > Aurélien le photographe </h3> <br>
                                 <p> 
                                     Pour immortaliser cette rencontre inoubliable, 
                                     Aurélien vous prendra (en photo) sous votre meilleur profil. <br>
@@ -52,7 +52,7 @@
                 <!--<div class='numberText'> 5 / 5 </div>-->
                     <img src="https://thispersondoesnotexist.com/image" alt='Jonathan' class='imgTeam'/>
                         <div class='teamText'>
-                            <h3 > Jonathan le "cupi-lion" </h3>
+                            <h3 > Jonathan le "cupi-lion" </h3> <br>
                                 <p> 
                                     Jonathan vous apprendra les gestes et la posture à adopter 
                                     pour séduire votre lion préféré. Jonathan est notre « Hitch » animalier.

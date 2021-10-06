@@ -17,14 +17,16 @@
 <section class= "bigContainer">
 
   <div class="reserv"> 
-      <h1>Reservation</h1>
+      <h1 class="h1Reserv">Reservation</h1>
         <form id="myform">
             <label for="firstname"></label> <br />
                 <input type="text" id="fname" name="fname" placeholder="Name / First name"/>
-          
+            <label for="start">Date de Réservation</label>
+            <input type="date" id="start" name="trip-start" value="2021-09-13"
+                  min="2021-09-13" max="2022-09-13">
                 <SELECT id="activites" name="activités" size="1">
                     <OPTION> Choisissez votre activité
-                    <OPTION>Instant Love
+                    <OPTION>Instant Câlin
                     <OPTION>Instant Gastronomie
                     <OPTION>Instant Picture
                 </SELECT>
@@ -39,11 +41,11 @@
 
   <section class ="infoContact">
    
-    <h>Nos information</h>
-    <br/><br/>
-    <p><img src="images/phoneForm.png" id="phoneForm">+33 5 56 56 56 56 </p> <br/>
-    <p><img src="images/enveloppeForm.png" id="enveloppeForm"> info@bashstide.com </p> <br/>
-    <p><img src="images/localisationForm.png" id="localisationForm"> 30 rue Lionceau <br> 33300 Bordeaux </p>
+    <h1 class="h1Reserv">Nos informations</h1>
+    <br><br>
+    <img src="images/phoneForm.png" id="phoneForm">    <p>+33 5 56 56 56 56 </p> <br>
+    <img src="images/enveloppeForm.png" id="enveloppeForm">  <p> info@bashstide.com </p> <br>
+    <img src="images/localisationForm.png" id="localisationForm"> <p> 30 rue Lionceau <br> 33300 Bordeaux </p>
 
 
     <div id="maps">
