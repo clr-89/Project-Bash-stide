@@ -23,18 +23,13 @@
             <label for="firstname"></label> <br>
             <input type="text" class='inputForm' name="fname" placeholder="Nom / Prénom" required autofocus/>
             <label for="start">Date de Réservation</label>
-
-            <input type="date" class="inputForm" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13" required>
-                <SELECT class="inputForm" name="activités" size="1" required>
-
-            <input type="date" id="start" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13">
+            <input type="date" class="inputForm" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13">
                 <SELECT class="inputForm" name="activités" size="1">
-                    <option> Choisissez votre activité </option>
+                    <option> Choisissez votre activité</option>
                     <option>Instant Câlin</option>
                     <option>Instant Gourmand</option>
                     <option>Instant Picture</option>       
                 </SELECT>
-
             <label for="email"></label>
             <input type="text" class="inputForm" name="email" placeholder="Adresse e-mail" required/>
             <label for="message"></label>
