@@ -26,15 +26,7 @@
                             'img' => 'images/poutine_picture.jpg',
                         ],
             ],
-
-
-        //*4 => [
-        'Instant Frisson' => [
-            'prix' => 12,
-            'detail' => 'Mieux qu’une balade à dos d’âne, chevauchez le roi de la jungle pour une vue panoramique de la place Stalingrad !',
-            'img' => 'images/Putin_place-de-stalingrad.jpg',
-                            ]
-                ];
+        ];
 
 
 
