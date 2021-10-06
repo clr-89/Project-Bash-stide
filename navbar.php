@@ -8,10 +8,11 @@
             <span></span>
             <span></span>
             <span></span>
-          </a>      
+          </a>
           <!-- Responsive Menu --> 
           <nav id="topnav_responsive_menu">
-            <ul>
+
+              <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="#activity">Activités</a></li>
                 <li><a href="#equipe">Notre Equipe</a></li>
