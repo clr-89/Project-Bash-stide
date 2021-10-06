@@ -23,12 +23,16 @@
             <label for="firstname"></label> <br>
             <input type="text" class='inputForm' name="fname" placeholder="Nom / Prénom" required autofocus/>
             <label for="start">Date de Réservation</label>
+
             <input type="date" class="inputForm" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13" required>
                 <SELECT class="inputForm" name="activités" size="1" required>
+
+            <input type="date" id="start" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13">
+                <SELECT class="inputForm" name="activités" size="1">
                     <option> Choisissez votre activité </option>
                     <option>Instant Câlin</option>
                     <option>Instant Gourmand</option>
-                    <option>Instant Picture</option>
+                    <option>Instant Picture</option>       
                 </SELECT>
 
             <label for="email"></label>
@@ -54,12 +58,7 @@
 
     <div id="maps">
       <iframe class='map' src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=le%20lion%20de%20veilhan+(Lion)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="330" height="330" style="border:0;" allowfullscreen="" loading="lazy" id="maps"></iframe>
-
-
-
-
     </div>
-  
 
   </section>
 
