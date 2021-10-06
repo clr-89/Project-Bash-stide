@@ -7,7 +7,8 @@
         <div class="footerSections container">
             <div class="footerSource">
                 <span class="footerTitle">Sources</span>
-                <a href="#" class="footerLink">Legal</a>
+                <a href="https://fr.freepik.com/vecteurs/logo%27%3ELogo" class="footerLink">Freepik</a>
+                <a href="https://www.color-stickers.com/stickers-animaux/1512-stickers-lion-cubique.html" class="footerLink">Color-stickers</a>
             </div>
         </div>
         <div class="footerSocialNetwork">
