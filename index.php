@@ -60,8 +60,9 @@
     <?php require 'asideTeam.php' ?>
 
 </main>
-
+<footer>
     <?php include 'footer.php'; ?>
+</footer>
 
 <script type="text/javascript" src="script.js"></script>
 </body>

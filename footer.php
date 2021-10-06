@@ -1,4 +1,3 @@
-
 <div class="footerWrapper">
     <div class="footerContainer">
         <div class="footerLogoText">
@@ -20,7 +19,7 @@
         </div>
     </div>
 </div>
-<footer class="footer">
+<div class="footer">
     <div class="footerText container">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,4 +60,4 @@
             <a href="#" class="footerLink">Link #3</a>
         </div>
     </div>
-</footer>
+</div>
