@@ -15,6 +15,7 @@ li, ul {
 
 a {
     text-decoration: none;
+    color:inherit;
 }
 
 h1, h2, h3, p, a {
@@ -97,9 +98,6 @@ h1, h2, h3, p, a {
     font-size: 50px;
 }
 
-#topnav_responsive_menu a {
-    color: #333;
-}
 
     #topnav_responsive_menu.open {
       transform: none;
@@ -179,7 +177,14 @@ h1, h2, h3, p, a {
   display: inline-block;
   transform: rotate(90deg);
   }
-/* Navbar */
+
+  .hover:hover {
+      background: #8EC9CF;
+      color: #E8ECB1;
+  }
+
+
+    /* Navbar */
 /* Main */
 .mainContainer {
     margin: 0 auto;

@@ -31,8 +31,6 @@
             </article>
         </section>
 
-
-
       <div>
           <h2 id="activity" >ACTIVITÉS</h2>
           <?php foreach ($activities as $activityType => $numberActivities) : ?>
