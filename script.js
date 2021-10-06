@@ -13,23 +13,6 @@ function showResponsiveMenu() {
     }
   }
 
-
-  const activity = document.getElementById("activity");
-  activity.addEventListener("click",function(){
-    const instants = document.getElementsByClassName('instant');
-    for (const instant of instants) {
-        instant.classList.toggle('d-none');
-       
-    }
-
-    const arrow = document.getElementById("arrow");
-    arrow.classList.toggle('open');
-
-  });
-
-
-
-
 // formulaires
 
 

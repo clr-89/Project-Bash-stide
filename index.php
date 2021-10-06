@@ -35,7 +35,7 @@
 
 
   <div>
-      <h2>ACTIVITÉS</h2>
+      <h2 id="activity" >ACTIVITÉS</h2>
       <?php foreach ($activities as $activityType => $numberActivities) : ?>
           <?php foreach ($numberActivities as $titleActivities => $detailActivity) : ?>
               <section class="<?= $activityType %2 === 0?"row":"reverse" ?>">
