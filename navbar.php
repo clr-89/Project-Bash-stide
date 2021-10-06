@@ -2,7 +2,7 @@
 <header>
     <div id="root">
         <div id="topnav" class="topnav">
-            <img src="images/lion.png">
+            <img src="images/lion.png" class="logoLion" alt="logo lion">
           <a id="home_link" class="topnav_link" href="/">Bash-Stide</a>
           <a id="topnav_hamburger_icon" onclick="showResponsiveMenu()" >           
             <span></span>
