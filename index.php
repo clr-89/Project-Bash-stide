@@ -46,7 +46,11 @@
 
      <article class="mainImg">
             <img src= "<?= $detailActivity['img']?>" alt="lion-eat"/>
-        </article>
+        </artiInstant Frisson :
+
+Mieux qu’une balade à dos d’âne, chevauchez le roi de la jungle pour une vue panoramique de la place Stalingrad !
+
+Prix 12 €cle>
         <article class="text">
             <h3> <?= $titleActivities?>  </h3>
             <p>
