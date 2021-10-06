@@ -18,12 +18,18 @@
 
   <div class="reserv"> 
       <h1 class="h1Reserv">Réservation</h1>
-        <form class="myform">
+        <form action="form.php" method="post" class="myform">
 
             <label for="firstname"></label> <br>
             <input type="text" id="fname" name="fname" placeholder="Nom / Prénom"/>
+            <?php
+            if (isset($_GET['errorTitle'])) {
+                echo $_GET['errorTitle'];
+            }
+            ?>
             <label for="start">Date de Réservation</label>
-            <input type="date" id="start" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13">
+            <input type="date" id="start" name= "date" value="2021-09-13" min="2021-09-13" max="2022-09-13">
+            <?php echo isset($_GET['errorDate']) ? $_GET['errorDate'] : ''; ?>
                 <SELECT id="activites" name="activités" size="1">
 
                     <option> Choisissez votre activité </option>
@@ -34,7 +40,11 @@
 
             <label for="email"></label>
             <input type="text" id="email" name="email" placeholder="Adresse e-mail"/>
-            <label for="message"></label>
+            <?php echo isset($_GET['errorEmail']) ? $_GET['errorEmail'] : ''; ?>
+            <label for="message">
+                <?php echo isset($_GET['errorMessage']) ? $_GET['errorMessage'] : '';?>
+            </label>
+
             <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" ></textarea>
             <input type="submit" id="submit" value="Envoyer"/>
 
