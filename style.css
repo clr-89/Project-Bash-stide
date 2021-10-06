@@ -430,7 +430,6 @@ h3:hover {
     text-align: center;
     font-size: 30px;
     padding: 8% 0 0 0;
-    font-size : 25px;
 }
 
 .map {
@@ -444,6 +443,7 @@ h3:hover {
 
 input{
     width: 25px;
+    height: 25px;
 }
 
 
@@ -457,10 +457,6 @@ input{
     background-color: rgba(255, 255, 255, 0.842);
     border-radius: 20px;
     padding: 3%;
-}
-
-input {
-    height: 25px;
 }
 
 
