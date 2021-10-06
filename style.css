@@ -702,21 +702,8 @@ input {
   background-size: cover;
   width:50%;
   background-position : left center;
-<<<<<<< HEAD
   background-color: #ffffff52;
     box-shadow: 8px 8px 12px #44424257;
-=======
-<<<<<<< HEAD
-  height: 569px;
-  background-color: #ffffff73;
-box-shadow: 8px 8px 12px #44424257;
->>>>>>> c9f7c5831b4cfab717aabc2866dae3499115caa1
-
-=======
-  height: 550px;
-  background-color: #ffffff73;
-  box-shadow: 8px 8px 12px #44424257;
->>>>>>> feat/asidemercredi2
 }
 
 .reserv:hover {
@@ -724,31 +711,14 @@ box-shadow: 8px 8px 12px #44424257;
 }
 
 .infoContact {
-<<<<<<< HEAD
-background-color: #ffffff52;
-=======
-<<<<<<< HEAD
-background-color: #ffffff73;
->>>>>>> c9f7c5831b4cfab717aabc2866dae3499115caa1
-box-shadow: 8px 8px 12px #44424257;
-width: 50%;
-=======
-   box-shadow: 8px 8px 12px #44424257;
-   background-color: #ffffff73; 
-   width: 50%;
-}
-
-input {
-    width:600px;
-    height: 40px;
->>>>>>> feat/asidemercredi2
+    background-color: #ffffff52;
+    box-shadow: 8px 8px 12px #44424257;
+    width: 50%;
 }
 
 input {
     width: 600px;
     height: 40px;
 }
-
-
 
 }
