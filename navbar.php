@@ -17,7 +17,6 @@
                 <li class="hover"><a href="#activity">Activités</a></li>
                 <li class="hover"><a href="#equipe">Notre Equipe</a></li>
                 <li class="hover"><a href="contact.php">Reservation</a></li>
-
             </ul>
           </nav>
         </div>

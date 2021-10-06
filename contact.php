@@ -17,15 +17,14 @@
 <section class= "bigContainer">
 
   <div class="reserv"> 
-      <h1 class="h1Reserv">Réservation</h1>
+      <h3 class="h1Reserv">Réservation</h3>
         <form class="myform">
 
             <label for="firstname"></label> <br>
-            <input type="text" id="fname" name="fname" placeholder="Nom / Prénom"/>
+            <input type="text" class='inputForm' name="fname" placeholder="Nom / Prénom" required autofocus/>
             <label for="start">Date de Réservation</label>
-            <input type="date" id="start" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13">
-                <SELECT id="activites" name="activités" size="1">
-
+            <input type="date" class="inputForm" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13" required>
+                <SELECT class="inputForm" name="activités" size="1" required>
                     <option> Choisissez votre activité </option>
                     <option>Instant Câlin</option>
                     <option>Instant Gourmand</option>
@@ -33,10 +32,10 @@
                 </SELECT>
 
             <label for="email"></label>
-            <input type="text" id="email" name="email" placeholder="Adresse e-mail"/>
+            <input type="text" class="inputForm" name="email" placeholder="Adresse e-mail" required/>
             <label for="message"></label>
-            <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" ></textarea>
-            <input type="submit" id="submit" value="Envoyer"/>
+            <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" required></textarea>
+            <button type="submit" id="submit">Envoyer</button>
 
         </form>
 
@@ -46,7 +45,7 @@
 
   <section class ="infoContact">
    
-    <h2 class="h1Reserv">Nos informations</h1>
+    <h2 class="h1Reserv">Nos informations</h2>
     <br><br>
     <img src="images/phoneForm.png" id="phoneForm">    <p>+33 5 56 56 56 56 </p> <br>
     <img src="images/enveloppeForm.png" id="enveloppeForm">  <p> info@bashstide.com </p> <br>
@@ -54,7 +53,7 @@
 
 
     <div id="maps">
-      <iframe src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=le%20lion%20de%20veilhan+(Lion)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="220" height="220" style="border:0;" allowfullscreen="" loading="lazy" id="maps"></iframe>
+      <iframe class='map' src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=le%20lion%20de%20veilhan+(Lion)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="330" height="330" style="border:0;" allowfullscreen="" loading="lazy" id="maps"></iframe>
 
 
 
