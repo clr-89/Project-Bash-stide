@@ -1,6 +1,6 @@
 <aside class='team'>
 
-     <h2 class='h2Team'>NOTRE EQUIPE </h2>
+     <h2 id="equipe" class='h2Team'>NOTRE EQUIPE </h2>
         <div class='slideShowContainer'>
             <div class='mySlides fade'>
                 <!--<div class='numberText'> 1 / 5 </div>-->

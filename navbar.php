@@ -4,7 +4,7 @@
         <div id="topnav" class="topnav">
             <img src="images/lion.png" class="logoLion" alt="logo lion">
           <a id="home_link" class="topnav_link" href="/">Bash-Stide</a>
-          <a id="topnav_hamburger_icon" onclick="showResponsiveMenu()" >           
+          <a id="topnav_hamburger_icon" onclick="showResponsiveMenu()" >
             <span></span>
             <span></span>
             <span></span>
@@ -13,10 +13,8 @@
           <nav id="topnav_responsive_menu">
             <ul>
                 <li><a href="index.php">Accueil</a></li>
-                <li id="activity"><a href="#">Activité</a> <span id="arrow" class="open">  >  </span></li>
-                <li class="d-none instant"><a  href="#/">Instant Gastronomie</a></li>
-                <li class="d-none instant"><a  href="#/">Instant Calin</a></li>
-                <li class="d-none instant"><a  href="/">Instant Picture</a></li>
+                <li><a href="#activity">Activités</a></li>
+                <li><a href="#equipe">Notre Equipe</a></li>
                 <li><a href="contact.php">Reservation</a></li>
             </ul>
           </nav>
