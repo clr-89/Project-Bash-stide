@@ -13,6 +13,7 @@
 </head>
 <body>
 <?php include 'navbar.php'; ?>
+
 <div id="container">
     <?php require 'activity.php'; ?>
     <main class="mainContainer">
@@ -52,10 +53,8 @@
             </section>
               <?php endforeach ; ?>
           <?php endforeach ; ?>
-      </div>
 
-        <?php require 'asideTeam.php' ?>
-
+          <?php include 'asideTeam.php';?>
     </main>
     <footer>
         <?php include 'footer.php'; ?>
@@ -64,4 +63,3 @@
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
-
