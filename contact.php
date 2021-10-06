@@ -17,31 +17,36 @@
 <section class= "bigContainer">
 
   <div class="reserv"> 
-      <h1 class="h1Reserv">Reservation</h1>
-        <form id="myform">
-            <label for="firstname"></label> <br />
-                <input type="text" id="fname" name="fname" placeholder="Name / First name"/>
+      <h1 class="h1Reserv">Réservation</h1>
+        <form class="myform">
+
+            <label for="firstname"></label> <br>
+            <input type="text" id="fname" name="fname" placeholder="Nom / Prénom"/>
             <label for="start">Date de Réservation</label>
-            <input type="date" id="start" name="trip-start" value="2021-09-13"
-                  min="2021-09-13" max="2022-09-13">
+            <input type="date" id="start" name= "trip-start" value="2021-09-13" min="2021-09-13" max="2022-09-13">
                 <SELECT id="activites" name="activités" size="1">
-                    <OPTION> Choisissez votre activité
-                    <OPTION>Instant Câlin
-                    <OPTION>Instant Gastronomie
-                    <OPTION>Instant Picture
+
+                    <option> Choisissez votre activité </option>
+                    <option>Instant Câlin</option>
+                    <option>Instant Gourmand</option>
+                    <option>Instant Picture</option>
                 </SELECT>
-                <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder=" Adresse e-mail"/>
-                <label for="message"></label>
-                <textarea id="message" name="message" placeholder="Précisez nous la date et l'horaire souhaités"></textarea>
-                <input type="submit" id="submit" value="submit" />
+
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Adresse e-mail"/>
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" ></textarea>
+            <input type="submit" id="submit" value="Envoyer"/>
+
         </form>
+
+        <br>
   </div> 
 
 
   <section class ="infoContact">
    
-    <h1 class="h1Reserv">Nos informations</h1>
+    <h2 class="h1Reserv">Nos informations</h1>
     <br><br>
     <img src="images/phoneForm.png" id="phoneForm">    <p>+33 5 56 56 56 56 </p> <br>
     <img src="images/enveloppeForm.png" id="enveloppeForm">  <p> info@bashstide.com </p> <br>
