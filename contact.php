@@ -33,7 +33,7 @@
             <input type="text" class="inputForm" name="email" placeholder="Adresse e-mail"/>
             <?php echo isset($_GET['errorEmail']) ? $_GET['errorEmail'] : ''; ?>
             <label for="start">Date de Réservation</label>
-            <input type="date" class="inputForm" name= "date" value="2021-09-13" min="2021-09-13" max="2022-09-13">
+            <input type="date" class="inputForm" name= "date" value='<?= date('Y-m-d');?>' min='<?=date('Y-m-d');?>' max="2022-09-13">
             <?php echo isset($_GET['errorDate']) ? $_GET['errorDate'] : ''; ?>
                 <SELECT class="inputForm" name="activités" size="1">
                     <option> Choisissez votre activité </option>

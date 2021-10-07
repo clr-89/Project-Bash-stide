@@ -26,7 +26,7 @@
                             <h1>PRÉSENTATION</h1>
                                 <p>
                                     BashStide, est une start-up rugissante implantée à Bordeaux depuis 2021.
-                                    La qualité de nos prestations unique en Europe vous feront vivre des instants inoubliables.
+                                    La qualité de nos prestations uniques en Europe vous feront vivre des instants inoubliables.
                                 </p>
                         </article>
                     </section>
