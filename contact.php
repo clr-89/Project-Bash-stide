@@ -45,13 +45,10 @@
             <label for="message">
                 <?php echo isset($_GET['errorMessage']) ? $_GET['errorMessage'] : '';?>
             </label>
-<<<<<<< HEAD
-
-=======
             <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" ></textarea>
             <button type="submit" id="submit"/>Envoyer</button
+            <?php echo isset($_GET['errorMessage']) ? $_GET['errorMessage'] : '';?>
         </form>
->>>>>>> 4317fca391057a8472db6fb60c5d7eca749c012b
   </div>
   <section class ="infoContact">
     <h2 class="h1Reserv">Nos informations</h2>

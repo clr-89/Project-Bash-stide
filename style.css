@@ -744,3 +744,8 @@ input{
         height: 40px;
     }
 }
+
+.alert-success {
+ display: flex;
+    background-color: #0078b4;
+}

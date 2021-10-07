@@ -6,6 +6,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 echo '<pre>';
 $title = $_POST['fname'];
+$date  = cleanInput($_POST['date']);
+$email  = cleanInput($_POST['email']);
+$message  = cleanInput($_POST['message']);
+
 $title = cleanInput($title);
 $errors = [];
 
@@ -24,8 +28,9 @@ if (empty($email)) {
 if (empty($message)) {
     $errors['errorMessage'] = 'Merci de compléter votre message';
 }
+
 if (count($errors) === 0) {
-    header('Location: /index.php?');
+    header('Location: /?success=true');
 } else {
     header('Location: /contact.php?' . http_build_query($errors));
 }
