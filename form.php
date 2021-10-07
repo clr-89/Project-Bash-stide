@@ -1,9 +1,8 @@
 <?php
-
-
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     die('method non autorisée');
 }
+
 echo '<pre>';
 $title = $_POST['fname'];
 $title = cleanInput($title);

@@ -10,7 +10,7 @@
                                     ],
             ],
         2 => [
-    'Instant Calin' =>  [
+            'Instant Calin' =>  [
 
                             'prix' => 19,
                             'detail' => 'Jonathan vous apprendra à attendrir le lion Bleu de la Place Stalingrad. Un calin ou un bisou, le Lion reverra de vous ! Ce moment romantique durera une heure',
@@ -19,14 +19,22 @@
                         ]
             ],
         3 => [
-    'Instant Picture' =>  [
+            'Instant Picture' =>  [
 
                             'prix' => 39,
                             'detail' => 'Notre photographe vous propose une séance au poil! Deux coffrets vous sont proposés : coffret roi de la jungle 30 photos ',
                             'img' => 'images/poutine_picture.jpg',
                         ],
             ],
-        ];
+        //4 => [
+            //'Instant Picture' =>  [
+
+                //'prix' => 39,
+                //'detail' => 'Notre photographe vous propose une séance au poil! Deux coffrets vous sont proposés : coffret roi de la jungle 30 photos ',
+                //'img' => 'images/poutine_picture.jpg',
+           // ],
+       // ],
+    ];
 
 
 
