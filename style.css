@@ -14,6 +14,10 @@ body {
     --footerHoverLinkColor: #cccccc;
     --footerHoverLinkBackGround: rgba(255, 255, 255, 0.15);
 }
+
+p {
+    font-family: 'Yaldevi', sans-serif;
+}
 /* ROOT */
 /* reset */
 * {
@@ -28,7 +32,7 @@ a {
     text-decoration: none;
     color:inherit;
 }
-h1, h2, h3, p, a {
+h1, h2, h3, a {
     font-family: 'Stick No Bills', sans-serif;
 }
 h3 {
@@ -399,7 +403,6 @@ aside {
 }
 .slideShowContainer {
     max-width: 1000px;
-    /*position: relative;*/
     margin: auto;
 }
 .next {
