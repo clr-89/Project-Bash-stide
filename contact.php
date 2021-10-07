@@ -16,15 +16,13 @@
 <body>
 <?php include 'navbar.php'; ?>
 
-<main>
+<main id="container">
 <section class= "bigContainer">
-
-  <div class="reserv"> 
-
+  <div class="reserv">
       <h3 class="h1Reserv">Réservation</h3>
         <form action="form.php" method="post" class="myform">
             <label for="firstname"></label> <br>
-            <input type="text" class="inputForm" name="fname" placeholder="Nom / Prénom"/>
+            <input type="text" class="inputForm" name="fname" placeholder="Nom / Prénom" autofocus/>
             <?php
             if (isset($_GET['errorTitle'])) {
                 echo $_GET['errorTitle'];
@@ -33,7 +31,7 @@
             <input type="text" class="inputForm" name="email" placeholder="Adresse e-mail"/>
             <?php echo isset($_GET['errorEmail']) ? $_GET['errorEmail'] : ''; ?>
             <label for="start">Date de Réservation</label>
-            <input type="date" class="inputForm" name= "date" value='<?= date('Y-m-d');?>' min='<?=date('Y-m-d');?>' max="2022-09-13">
+            <input type="date" class="inputForm" name= "date" value="<?= date('Y-m-d'); ?>" min="<?= date('Y-m-d'); ?>" max="2022-09-13">
             <?php echo isset($_GET['errorDate']) ? $_GET['errorDate'] : ''; ?>
                 <SELECT class="inputForm" name="activités" size="1">
                     <option> Choisissez votre activité </option>
@@ -46,13 +44,17 @@
                 <?php echo isset($_GET['errorMessage']) ? $_GET['errorMessage'] : '';?>
             </label>
             <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" ></textarea>
+<<<<<<< HEAD
             <button type="submit" id="submit"/>Envoyer</button
             <?php echo isset($_GET['errorMessage']) ? $_GET['errorMessage'] : '';?>
+=======
+            <button type="submit" class="submit">Envoyer</button
+>>>>>>> 604cee0406c57c3ce3d594f457e8d9ddaf7f815b
         </form>
   </div>
+
   <section class ="infoContact">
     <h2 class="h1Reserv">Nos informations</h2>
-
     <img src="images/phoneForm.png" id="phoneForm">    <p>+33 5 56 56 56 56 </p> <br>
     <img src="images/enveloppeForm.png" id="enveloppeForm">  <p> info@bashstide.com </p> <br>
     <img src="images/localisationForm.png" id="localisationForm"> <p> 30 rue Lionceau <br> 33300 Bordeaux </p>
