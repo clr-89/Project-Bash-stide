@@ -3,14 +3,19 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     die('method non autorisée');
 }
 
-echo '<pre>';
 $title = $_POST['fname'];
 $date  = cleanInput($_POST['date']);
 $email  = cleanInput($_POST['email']);
 $message  = cleanInput($_POST['message']);
-
 $title = cleanInput($title);
 $errors = [];
+
+function cleanInput(string $value): string
+{
+    $value = trim($value);
+    $value = htmlspecialchars($value);
+    return $value;
+}
 
 if (empty($title)) {
     $errors['errorTitle'] = 'Ce champ ne doit pas être vide';
@@ -29,15 +34,8 @@ if (empty($message)) {
 }
 
 if (count($errors) === 0) {
-    header('Location: /?success=true');
+    header('Location: contact.php?success=true');
 } else {
     header('Location: /contact.php?' . http_build_query($errors));
 }
 
-
-function cleanInput(string $value): string
-{
-    $value = trim($value);
-    $value = htmlspecialchars($value);
-    return $value;
-}

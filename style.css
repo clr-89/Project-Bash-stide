@@ -1,10 +1,20 @@
-/* ZONE COMMUNE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
 body {
     background-image: url(/images/fond.bmp);
     background-attachment: fixed;
     background-size: cover;
 }
-/* ROOT */
 :root{
     --footerTopWrapperBackGroundColor: #ffffff;
     --footerBackGroundColor: #333333;
@@ -17,20 +27,6 @@ body {
 
 p {
     font-family: 'Yaldevi', sans-serif;
-}
-/* ROOT */
-/* reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-li, ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-    color:inherit;
 }
 h1, h2, h3, a {
     font-family: 'Stick No Bills', sans-serif;
@@ -45,8 +41,6 @@ h3:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
-/* reset */
-/* navBar */
 .logoLion {
     width: 15%;
     margin-left: 20px;
@@ -113,7 +107,6 @@ h3:hover {
     transform: none;
     position: fixed;
 }
-/********************* BURGER ICON *********************/
 #topnavHamburgerIcon {
     display: block;
     position: relative;
@@ -182,8 +175,9 @@ h3:hover {
     background: #8EC9CF;
     color: #E8ECB1;
 }
-/* Navbar */
-/* Main */
+.hover:hover:nth-child(4){
+    border-bottom-left-radius: 20px;
+}
 .mainContainer {
     margin: 0 auto;
 }
@@ -532,14 +526,18 @@ input{
     font-size: 18px;
     box-shadow: 8px 8px 12px #44424257;
 }
-
 .submit:hover {
     background:#8EC9CF;
     color: aliceblue;
     cursor: pointer;
 }
-
-/* deuxième partie du formulaire*/
+.alert-success {
+    text-align: center;
+    margin:2%
+}
+.error {
+    color: red;
+}
 .infoContact {
     display:flex;
     flex-direction: column;
@@ -567,7 +565,6 @@ input{
     justify-content: center;
     margin: 5%;
 }
-/* FOOTER */
 .footerWrapper {
     background: var(--footerTopWrapperBackGroundColor);
     overflow: auto;
@@ -627,15 +624,11 @@ input{
     color: var(--footerHoverLinkColor);
     background: var(--footerHoverLinkBackGround);
 }
-/*** responsive *****/
 @media screen and (min-width: 700px) {
-
     .logoLion {
         width: 10%;
         margin-left: 20px;
-
     }
-
     #topnavResponsiveMenu ul {
         display: flex;
         flex-direction: column;
@@ -645,61 +638,49 @@ input{
         min-height: 0%;
         border-bottom-left-radius: 20px;
     }
-
     #homeLink {
         text-align: center;
         font-size: 85px;
     }
-
     .presentation {
         display: flex;
         flex-direction: row-reverse;
     }
-
     .row {
         display: flex;
         justify-content: center;
         margin-bottom: 3%;
         flex-direction: row-reverse;
     }
-
     .reverse {
         display: flex;
         justify-content: center;
         margin-bottom: 3%;
     }
-
     .mainImg img {
         max-width: 85%;
     }
-
     .mainContainer h2 {
         margin-bottom: 8%;
     }
-
     .mainText {
         width: 45%;
         align-self: center;
     }
-
     .mainText p {
         font-size: 30px;
         line-height: 40px;
         width: 80%;
     }
-
     .mainText button {
         padding: 5%;
         font-size: 25px;
         border-radius: 50px;
     }
-
-    /** aside ***/
     .imgTeam {
         width: 70%;
         border-radius: 500px;
     }
-
     .teamText {
         position: relative;
         top: -750px;
@@ -725,13 +706,11 @@ input{
         background-color: #ffffff52;
         box-shadow: 8px 8px 12px #44424257;
         width: 50%;
-}
-    /** formulaire **/
+    }
     .bigContainer {
         display: flex;
         justify-content: space-evenly;
     }
-
     .reserv {
         background-size: cover;
         width: 50%;
@@ -751,9 +730,4 @@ input{
         width: 600px;
         height: 40px;
     }
-}
-
-.alert-success {
- display: flex;
-    background-color: #0078b4;
 }

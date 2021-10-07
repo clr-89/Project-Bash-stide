@@ -1,5 +1,4 @@
 <aside class='team'>
-
      <h2 id="equipe" class='h2Team'>NOTRE EQUIPE </h2>
         <div class='slideShowContainer'>
             <div class='mySlides fade'>
@@ -12,18 +11,17 @@
                                     Elle mène toute l’équipe d’une main de maître ! Elle peut parfois paraître plus enragée que le lion.
                                 </p>
                         </div>
-            </div> 
+            </div>
             <div class='mySlides fade'>
-               <!-- <div class='numberText'> 2 / 5 </div>-->
                     <img src="images/celia.gif" alt='Célia' class='imgTeam'/>
                         <div class='teamText'>
                             <h3> Célia la dompteuse </h3> <br>
-                                <p> 
+                                <p>
                                     Célia veille à votre sécurité, équipée de son fouet.
                                     Elle a remporté le WonderWoman festival, récompensant les dompteurs de fauve du monde entier.
                                 </p>
                         </div>
-            </div> 
+            </div>
             <div class='mySlides fade'>
                <!-- <div class='numberText'> 3 / 5 </div>-->
                     <img src="images/anthony-test.gif" alt='Anthony' class='imgTeam'/>
@@ -37,8 +35,7 @@
                         </div>
             </div> 
             <div class='mySlides fade'>
-               <!-- <div class='numberText'> 4 / 5 </div>-->
-                    <img src="images/aurelien.jpg" alt='Aurélien', class='imgTeam'/>
+                    <img src="images/aurelien.jpg" alt='Aurélien' class='imgTeam'/>
                         <div class='teamText'>
                             <h3 > Aurélien le photographe </h3> <br>
                                 <p> 
@@ -49,14 +46,13 @@
                         </div>
             </div>
             <div class='mySlides fade'>
-                <!--<div class='numberText'> 5 / 5 </div>-->
                     <img src="images/jonathan1.gif" alt='Jonathan' class='imgTeam'/>
                         <div class='teamText'>
                             <h3 > Jonathan le "cupi-lion" </h3> <br>
                                 <p> 
                                     Jonathan vous apprendra les gestes et la posture à adopter 
-                                    pour séduire votre lion préféré. Jonathan est notre « Hitch » animalier.
-                                    Il rendra le lion fou de vous !
+                                    pour séduire votre lion préféré. Jonathan est notre «Hitch» animalier.
+                                    Il rendra le lion fou de vous!
                                 </p>
                         </div>
             </div>

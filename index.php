@@ -1,5 +1,5 @@
-
 <!doctype html>
+<html lang='fr'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -16,11 +16,6 @@
 </head>
 <body>
     <?php include 'navbar.php'; ?>
-    <?php if (isset($_GET['success'])) : ?>
-        <div class="alert-success" role="alert">
-           Merci pour votre reservation. Nous reviendrons vers vous dans les plus brefs délais ;)
-        </div>
-    <?php endif ?>
         <div id="container">
             <?php require 'activity.php'; ?>
                 <main class="mainContainer">
