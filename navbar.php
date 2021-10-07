@@ -8,14 +8,14 @@
                     <span></span>
                     <span></span>
                 </a>
-                    <nav id="topnavResponsiveMenu">
-                        <ul>
-                            <li class="hover"><a href="index.php">Accueil</a></li>
-                            <li class="hover"><a href="index.php#activity">Activités</a></li>
-                             <li class="hover"><a href="index.php#equipe">Notre Equipe</a></li>
-                            <li class="hover"><a href="contact.php">Reservation</a></li>
-                        </ul>
-                    </nav>
+                <nav id="topnavResponsiveMenu">
+                    <ul>
+                        <li class="hover"><a href="index.php">Accueil</a></li>
+                        <li class="hover"><a href="index.php#activity">Activités</a></li>
+                        <li class="hover"><a href="index.php#equipe">Notre Equipe</a></li>
+                        <li class="hover"><a href="contact.php">Reservation</a></li>
+                    </ul>
+                </nav>
         </div>
     </div>
 </header>

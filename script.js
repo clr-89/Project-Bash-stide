@@ -14,6 +14,10 @@ container.addEventListener('click', () => {
     icon.classList.remove('open')
 })
 // formulaires
+
+
+
+
 // claire js carou
 let slideIndex = 1;
     showSlides(slideIndex);

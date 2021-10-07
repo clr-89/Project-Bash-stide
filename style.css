@@ -257,6 +257,7 @@ h3:hover {
     color: black;
 }
 .button button:hover {
+    background:#8EC9CF;
     cursor: pointer;
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
@@ -520,17 +521,24 @@ input{
     padding: 3%;
     border-radius: 20px;
 }
-#submit {
+.submit {
     background-color: #f5f5dc00;
     width: 100px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.699);
-    padding: 3%;
+    padding: 12px;
     border-radius: 20px;
     border:none;
     font-size: 18px;
     box-shadow: 8px 8px 12px #44424257;
 }
+
+.submit:hover {
+    background:#8EC9CF;
+    color: aliceblue;
+    cursor: pointer;
+}
+
 /* deuxième partie du formulaire*/
 .infoContact {
     display:flex;

@@ -16,7 +16,7 @@
 <body>
 <?php include 'navbar.php'; ?>
 
-<main>
+<main id="container">
 <section class= "bigContainer">
   <div class="reserv">
       <h3 class="h1Reserv">Réservation</h3>
@@ -44,7 +44,7 @@
                 <?php echo isset($_GET['errorMessage']) ? $_GET['errorMessage'] : '';?>
             </label>
             <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" ></textarea>
-            <button type="submit" id="submit">Envoyer</button
+            <button type="submit" class="submit">Envoyer</button
         </form>
   </div>
 
