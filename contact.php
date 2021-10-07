@@ -45,9 +45,7 @@
             <label for="message">
                 <?php echo isset($_GET['errorMessage']) ? $_GET['errorMessage'] : '';?>
             </label>
-            <textarea id="message" name="message" placeholder="Veuillez renseigner vos demandes supplémentaires" ></textarea>
-            <input type="submit" id="submit" value="Envoyer"/>
-        </form>
+
   </div>
   <section class ="infoContact">
     <h2 class="h1Reserv">Nos informations</h2>
